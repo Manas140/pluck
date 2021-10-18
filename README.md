@@ -6,13 +6,14 @@ A X11 Color Picker
   <img src="preview.png">
 </p>
 
-pluck is a simple X11 color picker in Posix which uses of `xdotool` to get mouse position, `convert` for getting color values, and xclip to copy it to clipboard.
 Dependencies:
 
 ```
+  xinput
   xdotool
   ImageMagick
-  xclip
+  notify-send (optional)
+  xclip (optional)
 ```
 
 Install:
