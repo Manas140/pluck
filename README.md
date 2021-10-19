@@ -1,13 +1,11 @@
 # Pluck
-
 A X11 Color Picker
 
 <p align="center">
   <img src="preview.png">
 </p>
 
-Dependencies:
-
+# Dependencies
 ```
   xinput
   xdotool
@@ -16,22 +14,26 @@ Dependencies:
   xclip (optional)
 ```
 
-Install:
-
+# Install
 ```
   git clone https://github.com/Manas140/pluck.git && cd pluck
   ./install.sh i
 ```
-Usage:
 
+# Usage
 ```
   pluck [rgb|h]
     rgb: use rgb value instead of hex
       h: help
 ```
 
-Example:
-
+# Example
 ```
   pluck
+```
+
+# Todo
+```
+  Change cursor to pick_cursor while running
+  Freeze Screen to avoid any changes in picked color
 ```
